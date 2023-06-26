@@ -19,4 +19,4 @@ for product_elem in products_elem:
     products.append(obj)
 
 df = pd.DataFrame(products)
-df.to_excel("product_details.xlsx")
+df.to_csv("product_details.csv")
